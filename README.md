@@ -1,5 +1,18 @@
 # Internet device search engine
 
+
+## How to Install
+	
+	pip install -r requirements.txt
+
+
+## How to Run
+
+	python application.py
+
+
+#
+## 1 : FIRST STEP
 This search tool uses Shodan.
 
 First, please obtain the API from this URL.
@@ -12,23 +25,40 @@ To use the tag search, you must be a member.
 For more advanced searches, you will need to subscribe for more subscriptions.
 
 
+## 2 : SEARCH STEP 
+For search function, type menu -> shomap
 
-## How to Install
-	
-	pip install -r requirements.txt
+for a start 
+       
+       search -k apache -l 50 -p 2 
+  
+Running this command will output results according to the keywords specified by -k
+
+If you wish to specify a country, 
+        
+        search -k country:jp product:apache -l 50 -p 2
+
+You can also search in this way.
 
 
-## How to Run
+## 3 : DATA STEP 
 
-	python application.py
+Details of the acquired data can be checked with the 
+        
+      data         
+command.
 
+The command control is designed to be more unix  for ease of use.
+
+          
+
+#
 
 
 ## Application Menu 
 >>>
     
     # Menu > shomap
-
 
 >>>
 
@@ -48,7 +78,7 @@ For more advanced searches, you will need to subscribe for more subscriptions.
     -l --limit [n]              To specify a limit, use
     -s --save                   To save the acquired data
     -f --file  [filenames]      To specify a filename, use
-
+    -p -print  [1 or 2 or 3]
 
     state, all ,asn ,city ,country, cpe, device, geo, has_ipv6 ,has_screenshot
     has_ssl, has_vuln, hash, hostname, ip ,isp ,link ,net, org, os, port, postal
@@ -87,3 +117,19 @@ For more advanced searches, you will need to subscribe for more subscriptions.
     stats       Provide summary information about a search query
     stream      Stream data in real-time.
     version     Print version of this tool.
+
+
+# 
+## Contact Us
+This is a demo, and if you need a higher quality tool or want more features, 
+
+please contact us at this e-mail address.
+
+e-mail: takenojob54@gmail.com
+
+## Donation
+If you can help us in any way, your donation will encourage us in our future activities!
+
+Bitcoin :  
+
+Ethernet : 
