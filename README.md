@@ -130,6 +130,6 @@ e-mail: takenojob54@gmail.com
 ## Donation
 If you can help us in any way, your donation will encourage us in our future activities!
 
-Bitcoin :  
+Bitcoin : 14pTUJDExVn8Dz6y51w6DY3eXLoM83q1nv
 
-Ethernet : 
+Ethernet : 0xcde39cc1fc851b3fdc8a6ca308b41d8f291c2dd1
